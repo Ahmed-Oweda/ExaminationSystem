@@ -1,0 +1,238 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.validation header h2
+{
+    /* background:burlywood; */
+    padding: 35px;
+    font-size:350%;
+    text-align: center;
+    color: #7b7b7b;
+    font-family: Lobster;
+}
+
+.leftdiv
+{
+    width: 50%;
+    
+    background-color: rgba(255, 255, 255, 0.52);
+    border-right:#a5a5a5 1px solid;
+
+}
+.rightdiv
+{
+    width:50%;
+    
+    background-color: rgba(255, 255, 255, 0.22);
+}
+.validationform h3
+{
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+
+}
+tr
+{
+   
+    line-height:50px;
+    
+
+}
+td
+{
+    padding: 0 0 15px 10px;
+
+}
+.leftdiv table
+{
+    margin-left: 50px; 
+}
+.rightdiv ul
+{
+    margin: 0 0 0px 65px;
+}
+
+.rightdiv ul li
+{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.btn button
+{
+    padding :20px 40px;
+    font-size: 20px;
+    background-color: rgb(7, 80, 175);
+    color:white;
+    font-weight: bold;
+    /*display :none ; /*we must remove it before using */
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+.validationform
+{
+    
+    /* background-color: rgb(255, 248, 236); */
+    display:flex;
+    height:380px;
+    /*display: none; /*we must omit it before using */
+
+}
+.btn
+{
+    text-align: center;
+    /* background-color:  rgb(255, 248, 236); */
+}
+.test
+{
+    width: 80%;
+    
+
+}
+
+.question 
+{
+    text-align:left;
+    font-size:50px;
+    margin:10px 10px ;
+    border: 2px solid salmon;
+    width: 100%;
+}
+#bt1 ,#bt2,#bt3,#bt4
+{
+    text-align:left;
+    
+    margin:20px 20px ;
+    
+}
+span
+{
+    font-size: 20px;
+
+}
+
+.nextorskip
+{
+    width: 70%;
+    text-align: center;
+    margin:30px 30px;
+
+}
+.skip ,.next,.submit
+{
+    margin :20px 20px;
+    padding :30px 30px;
+    border-radius: 50%;
+    background-color: magenta;
+
+}
+
+
+.container
+{
+    display:none;
+}
+.containerright
+{
+width: 27%;
+}
+.containerleft
+{
+width: 70%;
+}
+.skippedquestions
+{
+    margin: 10px 10px ;
+    height: 400px;
+    width:100%;
+    border: 2px solid black;
+    font-family: 'Tangerine', serif;
+    
+}
+.skippedquestions h5
+{
+    margin: 10px 10px ;
+    
+    font-size: 300%;
+}
+
+.results
+{
+    display :none;
+    height: 100vh;
+    background-image: url("back2.jpg");
+    text-align: center;
+    background-size: 1400px 700px; 
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.results h1
+{
+    padding :20px 20px;
+}
+
+/* .validation
+{
+    display:none ;
+} */
+
+.score
+{
+    text-decoration: underline;
+    font-size: 200%;
+}
+
+.skippeditems
+{
+    cursor: pointer;
+    padding :5px 5px ;
+    transition: all 0.5s ease;
+    font-size: 200%;
+
+}
+.skippeditems:hover
+{
+    background-color: magenta;
+
+}
+
+
+
+
+@keyframes flash{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.addanimation
+{
+    animation :flash 0.5s linear 0s 1 alternate none ;
+}
+
+body
+{
+    background-image: url(back5.jpg);
+    background-color: rgb(233, 233, 233);
+    background-blend-mode: soft-light;
+    /* background-blend-mode: saturation; */
+    font-family: sans-serif;
+    color: #174263;
+
+}
+

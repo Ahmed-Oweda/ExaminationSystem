@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="projectcss.css" />
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+
+    <div class="validation">
+        <header>
+            <h2>
+                Welcome to Oweda's Exam
+            </h2>
+        </header>
+
+        <div class="loginpage">
+
+            <form class="validationform">
+                <div class="leftdiv">
+                    <h3>
+                        Personal details
+
+                    </h3>
+                    <table>
+                        <tr class="namefield">
+                            
+                            <td><label for="txb_name">Name</label></td>
+                            <td><input type="text" id="txb_name"></td>
+                        </tr>
+                        <tr class="Emailfield">
+                            <td><label for="txb_email">Email</label></td>
+                            <td><input type="text" id="txb_email"></td>
+                        </tr>
+                        <tr class="IDfield">
+                            <td><label for="txb_id">ID</label></td>
+                            <td><input type="text" id="txb_id"></td>
+                        </tr>
+                        <tr class="trackfield">
+                            <td><label for="txb_track">Track</label></td>
+                            <td><select name="" id="txb_track">
+                                    <option value=""></option>
+                                    <option value="1">User Interface</option>
+                                    <option value="2">CEI</option>
+                                    <option value="3">SharePoint</option>
+                                    <option value="4">GIS</option>
+                                </select></td>
+                        </tr>
+
+                    </table>
+
+                </div>
+                <div class="rightdiv">
+                    <h3>
+                        Instructions of the Exam
+                    </h3>
+                    <ul>
+                        <li>All questions are MCQ</li>
+                        <li>The exam consists of 5 questions</li>
+                        <li>Total marks for the exam are 25 marks </li>
+                        <li>You can skip a question and return back later to it by hitting skip button</li>
+                    </ul>
+
+
+                </div>
+            </form>
+            <div class="btn">
+                <button id="begin">
+                    Begin your test
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <div class="containerleft">
+
+
+            <div class="test">
+                <div class="q">
+                    <p class="question">
+
+                        Question
+                    </p>
+
+                </div>
+
+
+                <div class="answer1"><input type="radio" id="bt1" name="a"><span id="ans1">answer1</span> </div>
+                <div class="answer2"><input type="radio" id="bt2" name="a"><span id="ans2">answer2</span> </div>
+                <div class="answer3"><input type="radio" id="bt3" name="a"><span id="ans3">answer3</span> </div>
+                <div class="answer4"><input type="radio" id="bt4" name="a"><span id="ans4">answer4</span> </div>
+
+                <div class="nextorskip">
+                    <button class="skip">Skip</button>
+                    <button class="submit">Submit</button>
+                    <button class="next">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="containerright">
+
+
+
+            <div class="skippedquestions">
+                <h5>Skipped Questions</h5>
+                
+                
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="results">
+
+        <h1>Congratulations you have ended the test successfully</h3>
+            <br>
+        <h2>Your final score is <span class="score"></span> out of 25 </h4>
+
+
+
+
+    </div>
+
+    <script src="projectjava.js"></script>
+</body>
+
+</html>
